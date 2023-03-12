@@ -1,0 +1,48 @@
+{
+  "path": "/users/create",
+  "method": "POST",
+  "query_params": [],
+  "headers": [],
+  "body": [
+    {
+      "name": "firstName",
+      "types": ["String"],
+      "required": true
+    },
+    {
+      "name": "lastName",
+      "types": ["String"],
+      "required": true
+    },
+    {
+      "name": "phone",
+      "types": ["String"],
+      "required": false
+    },
+    {
+      "name": "email",
+      "types": ["String", "Email"],
+      "required": true
+    },
+    {
+      "name": "username",
+      "types": ["String"],
+      "required": true
+    },
+    {
+      "name": "password",
+      "types": ["String"],
+      "required": true
+    },
+    {
+      "name": "address",
+      "types": ["String"],
+      "required": false
+    },
+    {
+      "name": "dob",
+      "types": ["Date"],
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "path": "/orders/info",
+  "method": "GET",
+  "query_params": [
+    {
+      "name": "order_id",
+      "value": "8c7d5996-7318-4a93-bc07-ea4734e333ce"
+    }
+  ],
+  "headers": [
+    {
+      "name": "Authorization",
+      "value": "Bearer ebb3cbbe938c4776bd22a4ec2ea8b2ca"
+    }
+  ],
+  "body": []
+}

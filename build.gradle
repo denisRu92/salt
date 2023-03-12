@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+}
+
+group 'salt.security'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly("org.projectlombok:lombok:${property('lombok.version')}")
+    testCompileOnly("org.projectlombok:lombok:${property('lombok.version')}")
+    annotationProcessor("org.projectlombok:lombok:${property('lombok.version')}")
+    testAnnotationProcessor("org.projectlombok:lombok:${property('lombok.version')}")
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-webflux', version: property('spring.boot.version')
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-actuator', version: property('spring.boot.version')
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
+    testImplementation group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: property('spring.boot.version')
+    testImplementation group: 'junit', name: 'junit', version: '4.13.2'
+}
+
+test {
+    useJUnitPlatform()
+}
