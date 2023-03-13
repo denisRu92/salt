@@ -1,5 +1,5 @@
 {
-  "path": "/users/create",
+  "path": "/entity/create",
   "method": "POST",
   "query_params": [],
   "headers": [],

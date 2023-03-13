@@ -1,5 +1,5 @@
 {
-  "path": "/users/info",
+  "path": "/entity/info",
   "method": "GET",
   "query_params": [
     {

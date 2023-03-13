@@ -1,6 +1,6 @@
 [
   {
-    "path": "/users/info",
+    "path": "/entity/info",
     "method": "GET",
     "query_params": [
       {
@@ -32,7 +32,7 @@
     "body": []
   },
   {
-    "path": "/users/create",
+    "path": "/entity/create",
     "method": "POST",
     "query_params": [],
     "headers": [],
